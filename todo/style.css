@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+#todo-app {
+  display: flex;
+  flex-direction: column;
+}
+
+#new-task {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+#add-btn {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.task button {
+  margin-left: 1rem;
+}
